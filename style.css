@@ -161,6 +161,111 @@ nav{
     color: #444;
     font-style: italic;
   }
+  #contact {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 80px 20px;
+  border-top: 2px solid #111;
+  background: #f4f4f4;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+#contact h2 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+#contact > p {
+  max-width: 700px;
+  margin: 0 0 40px;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 16px;
+  margin-bottom: 50px;
+}
+
+.contact-box {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 18px 24px;
+  min-width: 200px;
+  font-weight: 600;
+  color: #4f46e5;
+}
+
+.contact-box .icon {
+  margin-right: 6px;
+}
+
+.contact-box p {
+  margin-top: 6px;
+  font-weight: 400;
+  color: #333;
+  font-size: 14px;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 0;
+  text-align: left;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.form-group {
+  flex: 1;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+#contact input,
+#contact textarea {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+#contact button {
+  display: block;
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+#contact button:hover {
+  background: #4338ca;
+}
+
+
 
   /* style tablet ama hp */
 
