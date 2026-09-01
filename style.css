@@ -6,12 +6,14 @@ body{
 }
 
 nav{
-    background-color: #2563EB;
+    background-color: #F8FAFC;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5rem;
-    color: whitesmoke;
+    color: #0F172A;
+    border:2px solid #E2E8F0;
+    border-radius: 0 0 25px 25px;
 }
 
 .menu a{
@@ -24,8 +26,8 @@ nav{
 }
 
 .menu a:hover{
-    background-color: #f8fafb;
-    color: #374151;
+    background-color: #2563EB;
+    color: #F8FAFC;
 }
 
 /* hero */
@@ -275,7 +277,7 @@ nav{
 
 #contact button {
   display: block;
-  background: #4f46e5;
+  background: #2563EB;
   color: #fff;
   border: none;
   padding: 12px 28px;
@@ -287,7 +289,7 @@ nav{
 }
 
 #contact button:hover {
-  background: #4338ca;
+  background: rgb(54, 40, 200);
 }
 
 
